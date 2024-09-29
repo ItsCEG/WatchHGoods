@@ -1,0 +1,195 @@
+body {
+    font-family: 'DM Sans';font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #40513B;
+}
+.Header h1{
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.head_text h1{
+  text-decoration: none;
+  color: white;
+}
+
+.head_text h1,.head_text:hover{
+  color: white;
+  border: none;
+  padding: 0 0 0 0;
+  border-radius: 8px;
+  background-color: transparent;
+  font-family: 'DM Sans';
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.head_text a{
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  margin: 20px;
+}
+.product {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.product img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  margin-bottom: 10px;
+}
+.product h2 {
+  margin-top: 0;
+}
+.product p {
+  margin-bottom: 10px;
+}
+  
+.banner {
+  width: 100%;
+  background: url('./assets/promobanner.jpg');
+  background-size: 30%;
+  background-position:center;
+}
+
+
+.banner-content {
+  position: relative;
+  padding: 60px;
+  background-color: rgba(255, 255, 255, 0.548);
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  color: #40513B;
+  font-size: 16px;
+}
+
+.cta-button {
+  display: inline-flex;
+  padding: 10px 20px;
+  background-color: #40513B;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.icon{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans',sans-serif;
+}
+  
+:root{
+    color: #40513B;
+}
+
+a{
+    color: white;
+    text-align: right;
+   
+}
+  
+a:hover{
+    color: black;
+    transition: all .2s ease;
+}
+
+.topnav ul{
+    display:flex;
+    width: 450px;
+}
+  
+.topnav ul li{
+    position:relative;
+    list-style: none;
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+}
+  
+.topnav ul li a{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+}
+  
+.topnav ul li a .icon{
+    position: relative;
+    display: block;
+    line-height: 75px;
+    font-size: 1.5em;
+    text-align: center;
+    transition: 0.5s;
+    color: white;
+    padding-top: 20px;
+}
+  
+.topnav ul li:hover a .icon{
+    transform: translateY(-25px);
+}
+  
+.topnav ul li a .text{
+    position: absolute;
+    color: whitesmoke;
+    font-weight: 400;
+    font-size:0.75em;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+    opacity: 0;
+    transform: translateY(20px);
+}
+  
+.topnav ul li:hover a .text{
+    opacity: 1;
+    transform: translateY(20px);
+}
+
+footer{
+  background-color: #40513B;
+  color:white;
+  padding: 10px;
+  text-align: center;
+}
+
+.footer-links {
+  color: white;
+  list-style-type: none;
+  margin-bottom: 10px;
+  height: 50px;
+}
+
+.footer-links li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+}

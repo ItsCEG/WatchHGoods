@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="WatchHGood.css">
+  <title>WatchHGoods Catalogue</title>
+  <link href='https://fonts.googleapis.com/css?family=DM Sans' rel='stylesheet'>
+  <link rel="stylesheet" href="WatchHGoodProducts.css">
+  <script src="./WatchHGoodProducts.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="Header">
+      <div class="head_text">
+        <a href="WatchHGoodHome.html"><h1>WatchHGoods</h1></a>
+      </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <div class="topnav">
+      <ul>
+        <li class="list">
+          <a href="WatchHGoodHome.html">
+            <span class="icon">
+              <ion-icon name="home-outline"></ion-icon>
+            </span>
+            <span class="text">Home</span>
+          </a>
+        </li>
+        <li class="list">
+          <a href="WatchHGoodProducts.html">
+            <span class="icon">
+              <ion-icon name="watch-outline"></ion-icon>
+            </span>
+            <span class="text">Products</span>
+          </a>
+        </li>
+        <li class="list">
+          <a href="WatchHGoodAboutUs.html">
+            <span class="icon">
+              <ion-icon name="people-outline"></ion-icon>
+            </span>
+            <span class="text">About Us</span>
+          </a>
+        </li>
+        <li class="list">
+          <a href="WatchHGoodsLocation.html">
+            <span class="icon">
+              <ion-icon name="location-outline"></ion-icon>
+            </span>
+            <span class="text">Location</span>
+          </a>
+        </li>
+        <li class="list">
+          <a href="WatchHGoodContact.html">
+            <span class="icon">
+              <ion-icon name="chatbox-ellipses-outline"></ion-icon>
+            </span>
+            <span class="text">Contact Us</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <main>
+    <div class="searchBar">
+      <i class="search"></i>
+      <input type="text" placeholder="Search watch here..">
+      <button class="button">Search</button>
+    </div>
+    <div class="categories-option">
+      <div class="select-btn">
+        <span class="btn-text">Select your categories</span>
+          <ion-icon name="caret-down-outline"></ion-icon>
+      </div>
+      <ul class="options">
+        <li class="option">
+          <ion-icon name="man-outline"></ion-icon>
+          <span class="option-text">Men</span>
+        </li>
+        <li class="option">
+          <ion-icon name="woman-outline"></ion-icon>
+          <span class="option-text">Women</span>
+        </li>
+      </ul>
+    </div>
+    <main>
+      <div class="watch-card">
+        <img src="./assets/Fossil.jpeg" alt="Fossil">
+        <h2>Fossil Blue GMT Limited Edition</h2>
+        <p>Price: Rp. 5.000.000</p>
+        <button onclick="addToCart('Fossil Blue GMT Limited Edition')">Add to Cart</button>
+      </div>
+  
+      <div class="watch-card">
+        <img src="./assets/iwatch8.jpg" alt="iWatch">
+        <h2>iWatch Series 8</h2>
+        <p>Price: Rp. 15.000.000</p>
+        <button onclick="addToCart('iWatch Series 8')">Add to Cart</button>
+      </div>
+  
+      <div class="watch-card">
+        <img src="./assets/Rolex GMT-Master.jpg" alt="Watch 3">
+        <h2>Rolex GMT Master</h2>
+        <p>Price: Rp. 200.000.000</p>
+        <button onclick="addToCart('Rolex GMT Master')">Add to Cart</button>
+      </div>
+      <div class="watch-card">
+        <img src="./assets/Rolex Submariner.jpeg" alt="Watch 3">
+        <h2>Rolex Submariner</h2>
+        <p>Price: Rp. 150.000.000</p>
+        <button onclick="addToCart('Rolex Submariner')">Add to Cart</button>
+      </div>
+      <div class="watch-card">
+        <img src="./assets/Seiko 5 Sport.jpg" alt="Watch 3">
+        <h2>Seiko 5 Sport</h2>
+        <p>Price: Rp. 10.000.000</p>
+        <button onclick="addToCart('Seiko 5 Sport')">Add to Cart</button>
+      </div>
+      <div class="watch-card">
+        <img src="./assets/Tag Heuer.png" alt="Watch 3">
+        <h2>Tag Heuer Carrera Gt</h2>
+        <p>Price: Rp. 7.500.000</p>
+        <button onclick="addToCart('Tag Heuer Carrera Gt')">Add to Cart</button>
+      </div>
+      <div class="watch-card">
+        <img src="./assets/patek philippe.jpg" alt="Watch 3">
+        <h2>Patek Philippe 35.6mm Aquanaut Luce Glitter White</h2>
+        <p>Price: Rp.350.000.000</p>
+        <button onclick="addToCart('Patek Philippe 35.6mm')">Add to Cart</button>
+      </div>
+      <div class="watch-card">
+        <img src="./assets/OMEGA Seamaster Blue Wave.png" alt="Watch 3">
+        <h2>OMEGA Seamaster Blue Wave</h2>
+        <p>Price: Rp. 75.000.000</p>
+        <button onclick="addToCart('OMEGA Seamaster Blue Wave')">Add to Cart</button>
+      </div>
+      <div class="watch-card">
+        <img src="./assets/FOSSIL-FS-5439.jpg" alt="Watch 3">
+        <h2>Fossil FS-5439</h2>
+        <p>Price: Rp.1.700.000</p>
+        <button onclick="addToCart('Fossil FS-5439')">Add to Cart</button>
+      </div>
+      <div class="watch-card">
+        <img src="./assets/Casio AQ-230A Silver Stainless Steel.jpg" alt="Watch 3">
+        <h2>Casio AQ-230A Silver Stainless Steel</h2>
+        <p>Price: Rp. 690.000</p>
+        <button onclick="addToCart('Casio AQ-230A')">Add to Cart</button>
+      </div>
+      <div class="watch-card">
+        <img src="./assets/tag-heuer-aquaracer.jpeg" alt="Watch 3">
+        <h2>Tag Heuer Aquaracer</h2>
+        <p>Price: 54.000.000</p>
+        <button onclick="addToCart('Tag Heuer Aquaracer')">Add to Cart</button>
+      </div>
+      <div class="watch-card">
+        <img src="./assets/iWatch7.jpg" alt="Watch 3">
+        <h2>iWatch Series 7</h2>
+        <p>Price: Rp. 6.000.000</p>
+        <button onclick="addToCart('iWatch Series 7')">Add to Cart</button>
+      </div>
+      <div class="watch-card">
+        <img src="./assets/Patek Philipper Aquanut 42mm.jpeg" alt="Watch 3">
+        <h2>Patek Philipper Aquanut 42mm</h2>
+        <p>Price: Rp. 175.000.000</p>
+        <button onclick="addToCart('Patek Philipper Aquanut 42mm')">Add to Cart</button>
+      </div>
+    </main>
+
+  </main>
+</body>
+<footer>
+  <ul class="footer-links">
+    <li><a href="#">Terms of Service</a></li>
+    <li><a href="#">Privacy Policy</a></li>
+    <li><a href="https://www.instagram.com/">Social Media</a></li>
+  </ul>
+</footer>
+</html>
